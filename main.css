@@ -1,5 +1,14 @@
 
 body {
   padding: 0;
-  
+
+}
+
+header {
+  padding: 10px, 0, 10px, 0;
+  margin: 0;
+  background-color: #452312;
+  background-image: url(assets/bg_header.jpg);
+  height: 380px,auto;
+
 }

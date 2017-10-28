@@ -12,6 +12,9 @@ header {
   margin: 0;
   background-color: #452312;
   background-image: url(assets/bg_header.jpg);
-  height: 380px,auto;
+  background-size: cover;
+}
 
+header img {
+  align-self: center;
 }

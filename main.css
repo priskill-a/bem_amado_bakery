@@ -1,20 +1,60 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">);
+  font-style: bold;
+  font-weight: 900;
+}
 
-html, body, h1, h2, h3, h4, p, div {
+@font-face {
+  font-family: 'Raleway';
+  src: url(<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html, body, h1, h2, h3, h4, p, div, ul, li {
   padding: 0;
   border: 0;
   margin: 0;
   font: inherit;
   font-size: 100%;
+  font-family: 'Raleway', Helvetica, sans-serif;
 }
 
 header {
-  padding: 10px, 0, 10px, 0;
+  padding: 0;
   margin: 0;
+  height: 580px;
   background-color: #452312;
   background-image: url(assets/bg_header.jpg);
   background-size: cover;
+  background-position: center;
 }
 
-header img {
-  align-self: center;
+.logo img {
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+}
+
+nav {
+  border-bottom: 2px solid #f39720;
+  padding: 1.5%;
+  float: inherit;
+}
+
+nav ul {
+padding: 0 0 0 25%;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    color: #f39720;
+    padding: 3%;
 }
